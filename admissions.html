@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admission</title>
+
+    </head>
+    <body>
+        <form>
+            <h3>Admission Information (Please fill in data in English)</h3>
+         
+            Admission type:
+            <select name="---Select--">
+                <option value="--Select--">---Select--</option>
+                <option value="External">External</option>
+            </select><br><br>
+            Academic year;
+            <select name="Year">
+            <option value="2020">2020</option>
+        </select>
+        Semester: 
+        <select name="number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><hr>
+        <h3>Examination Center</h3>
+        Examination Center:
+        <select name="number">
+            <option value="1">---Select--</option>
+            <option value="UCSM">UCSM</option>
+            <option value="UCSMdy">UCSMdy</option>
+            <option value="UCSY">UCSY</option>
+        </select><hr>
+        <h3>Applicant's Information</h3>
+        Title:
+        <select name="---Select--">
+            <option value="--Select--">---Select--</option>
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Ms">Ms</option>
+        </select><br><br>
+        Name(ENG):
+        <input type="text" name="Firstname"> &nbsp;&nbsp;&nbsp;&nbsp;
+        Surname(ENG):
+        <input type="text" name="Surname"><br><br>
+        Name(TH):
+        <input type="text" name="Firstname"> &nbsp;&nbsp;&nbsp;&nbsp;
+        Surname(TH):
+        <input type="text" name="Surname"><br><br>
+        Gender:
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female<br><br>
+        Email:<input type="text" name="email"><br><br>
+        Syllabus:
+        <select name="---Select--">
+            <option value="--Select--">---Select--</option>
+            <option value="Chemical Engineering">Chemical Engineering(ChE)</option>
+            <option value="Civil Engineering">Cilvil Engineering(CE)</option>
+            <option value="Electrical Engineering">Electrical Engineering(EE)</option>
+            <option value="Mechanical Engineering">Mechanical Engineering(ME)</option>
+            <option value="industrial Engineering">Industrial Engineering & Logistic Engineering(IE)</option>
+            <option value="computer Engineering">Computer Engineering(CPE)</option>
+            <option value="Digital Engineering">Digital Engineering(DE)</option>
+            <option value=" Engineering Management"> Engineering Management(EM)</option>
+            <option value="Management Technology">Management Technology(MT)</option>
+        </select><br><br>
+        Country:<input name="country" list="countries">
+        <datalist id="countries">
+            <option value="India">India</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Burma">Burma</option>
+            <option value="China">China</option>
+            <option value="Cambodia">Cambodia</option>
+    
+        </datalist><br><br>
+        Birthday:
+        <input type="date" value="bdate" required/><br><br>
+        Sports:
+        <input type="checkbox" name="sports" value="batminton">Batminton
+        <input type="checkbox" name="sports" value="Football">Football
+        <input type="checkbox" name="sports" value="baseball">Baseball
+        <input type="checkbox" name="sports" value="Tennis">Tennis
+        <br><br>
+        <textarea rows="5" cols="20"></textarea>
+
+        <hr>
+
+
+
+
+
+        </form>
+    </body>
+</html>
